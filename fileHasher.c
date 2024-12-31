@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
     exit(1);
   }
 
-  fileptr = fopen(agrv[1], "rb");
+  fileptr = fopen(argv[1], "rb");
   if (fileptr == NULL) {
     printf("Failed to open file");
     exit(1);
